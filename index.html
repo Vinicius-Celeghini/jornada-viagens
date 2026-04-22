@@ -4,22 +4,29 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
     
     <title>Jornada Viagens</title>
   </head>
   <body>
     <header>
       <a class="logo" href="index.html">
-        <img src="img/bussola-jornada-branca.png" alt="bussola da logo jornada viagens branca">
+        <img src="img/bussola-jornada-branca.png" class="img-mobile" alt="bussola da logo jornada viagens branca">
+        <img class="img-desktop" src="img/logo-titulo-preto.png" alt="Logo jornada viagens branca">
       </a>
-      <img src="img/menu-hamburguer.png" alt="Menu hamburguer">
-      <nav>
-        <ul>
-          <li><a href="blog.html" title="Acessar blog"  target="_blank">Blog</a></li>
-          <li><a href="pacotes.html" title="Acessar Pacotes de viagem" target="_blank">Pacote de viagens</a></li>
-          <li><a href="contato.html" title="Acessar Contato" target="_blank">Contato</a></li>
-        </ul>
-      </nav>
+      <div class="navigation-menu">
+        <label for="menu">
+          <img src="img/menu-hamburguer.png" alt="Menu hamburguer">
+        </label>
+        <input type="checkbox" name="userMenu" id="menu" alt="menu" hidden>
+        <nav>
+          <ul class="list-links">
+            <li><a href="blog.html" title="Acessar blog"  target="_blank">Blog</a></li>
+            <li><a href="pacotes.html" title="Acessar Pacotes de viagem" target="_blank">Pacote de viagens</a></li>
+            <li><a href="contato.html" title="Acessar Contato" target="_blank">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
   </body>
 </html>
