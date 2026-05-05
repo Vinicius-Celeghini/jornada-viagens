@@ -1,3 +1,9 @@
+.offers-cards {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
 .card {
   color: var(--text-second-color);
   width: 312px;
@@ -31,6 +37,17 @@
   font-size: 32px;
   margin-top: 24px;
   display: inline-block;
+}
+
+@media screen and (min-width: 768px) {
+  .offers-cards {
+    display: inline-flex;
+    margin: 0px 24px 24px 0px;
+  }
+
+  section.offers {
+    text-align: center;
+  }
 }
 
 @media screen and (min-width: 1024px) {
