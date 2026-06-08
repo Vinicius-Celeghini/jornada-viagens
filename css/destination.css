@@ -62,7 +62,7 @@
   }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1320px) {
   .destination-items {
     display: flex;
     flex-direction: row;
