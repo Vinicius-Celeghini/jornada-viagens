@@ -1,5 +1,6 @@
 .category {
   margin-top: 88px;
+  margin-bottom: 88px;
 }
 
 .category .secion-title {
@@ -40,8 +41,12 @@
   padding-top: 50px;
 }
 
-.category-cards .card .single-line.transfer img {
+.category-cards .card .single-line .transfer img {
   margin: 10px 0 20px;
+}
+
+a.card.single-line.transfer {
+  padding: 55px;
 }
 
 @media screen and (min-width: 768px) {
