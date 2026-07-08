@@ -1,0 +1,34 @@
+.testimonial-container {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 32px 24px;
+}
+
+.testimonial-container article header p {
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.testimonial-container footer {
+  display: flex;
+  flex-direction: row;
+}
+
+.testimonial-container footer img {
+  width: 86px;
+  height: 86px;
+}
+
+.testimonial-container footer .profile-content h4 {
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: var(--titles-weight);
+  margin: 0;
+}
+
+@media screen and (min-width: 1440px) {
+  .testimonial-container {
+    flex-direction: row;
+  }
+}

@@ -1,4 +1,4 @@
-header {
+.header {
   background-color: var(--background-thirth-color);
   display: flex;
   flex-direction: row;
