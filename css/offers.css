@@ -41,6 +41,26 @@
   display: inline-block;
 }
 
+.card.japao {
+  background: url(../img/offers-japao-mobile.png);
+  background-size: cover;
+}
+
+.card.andreas {
+  background: url(../img/offers-sanAndreas-mobile.png);
+  background-size: cover;
+}
+
+.card.paraiba {
+  background: url(../img/offers-paraiba-mobile.png);
+  background-size: cover;
+}
+
+.card.manaus {
+  background: url(../img/offers-manaus-mobile.png);
+  background-size: cover;
+}
+
 @media screen and (min-width: 768px) {
   .offers-cards {
     flex-direction: row;
@@ -66,7 +86,7 @@
 
 @media screen and (min-width: 1440px) {
   .offers-cards .card {
-    width: 605px;
+    width: 580px;
   }
 }
 

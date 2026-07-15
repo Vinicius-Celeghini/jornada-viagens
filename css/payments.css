@@ -1,7 +1,3 @@
-.payments {
-  padding: 32px 24px;
-}
-
 .payments .img-galery {
   display: grid;
   grid-template-columns: 1fr 1fr;
