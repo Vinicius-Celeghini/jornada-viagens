@@ -46,7 +46,7 @@ body {
 
 section {
   width: 312px;
-  margin: 0 auto 88px;
+  margin: 88px auto;
 }
 
 section.hero {
