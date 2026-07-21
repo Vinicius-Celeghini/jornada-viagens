@@ -1,8 +1,7 @@
 .testimonial-container {
   display: flex;
   flex-direction: column;
-  gap: 32px;
-  padding: 32px 24px;
+  gap: 30px;
 }
 
 .testimonial-container article header p {
@@ -41,6 +40,6 @@
     flex-direction: row;
   }
   .testimonial-container footer .profile-content .rating .star {
-    font-size: 34px;
+    /* font-size: 34px; */
   }
 }
