@@ -60,6 +60,14 @@ body > section.payments > div.content-container > div.text-content > h2 {
   background-size: cover;
 }
 
+.bottom-hero-destino {
+  background: url(../img/prerodape-mobile-destino.png) no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+  margin-bottom: 0;
+}
+
 @media screen and (min-width: 768px) {
   .payments .content-container .img-galery .imagem.frist-destinjapao {
     background: url(../img/destino-japao-tablet-1.png) no-repeat;
@@ -72,5 +80,19 @@ body > section.payments > div.content-container > div.text-content > h2 {
   .payments .content-container .img-galery .imagem.thirdy-destinjapao {
     background: url(../img/destino-japao-tablet-3.png) no-repeat;
     background-size: contain;
+  }
+
+  .bottom-hero-destino {
+    background: url(../img/prerodape-tablet-destino.png) no-repeat;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .bottom-hero-destino {
+    background: url(../img/prerodape-desktop-destino.png) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    margin-bottom: 0;
   }
 }
